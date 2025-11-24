@@ -33,3 +33,17 @@ This project uses *Machine Learning and NLP techniques* to classify emails as *P
 | Deployment (optional) | Flask / Streamlit |
 | Environment | Jupyter Notebook / VS Code |
 
+📌 Future Enhancements
+🔹 Deploy using Flask / FastAPI Web App  
+🔹 Browser extension to detect phishing websites & emails  
+🔹 Deep learning model (LSTM / BERT)  
+🔹 Add Gmail API support for automatic inbox scanning
+
+📌 Dataset Details
+The dataset contains email samples with the following columns:
+- Email text/content
+- Subject line
+- Label (Phishing / Legitimate)
+Dataset source: College / Kaggle / Public dataset (as applicable)
+
+
