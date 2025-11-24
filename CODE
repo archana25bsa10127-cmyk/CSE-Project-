@@ -1,0 +1,14 @@
+def detect_internship_phishing(email):
+    phishing_keywords = [
+        "internship", "virtual internship", "apply now", "immediate joining",
+        "hiring students", "summer internship", "registration fee",
+        "processing charge", "payment required", "google form", "click here"
+    ]
+
+    email = email.lower()
+
+    for word in phishing_keywords:
+        if word in email:
+            return "⚠ Phishing Detected!"
+    
+    return "✔ Safe Email"
